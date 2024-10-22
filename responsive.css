@@ -1,0 +1,111 @@
+@media only screen and (max-width: 620px) {
+    .mono-nav{
+        display: flex;
+    }
+    .f-main{
+        display: none;
+    }
+    .s-main{
+        height: auto;
+        flex-direction: column;
+    }
+    .s-main .first{
+        width: 100%;
+        height: 100vh;
+    }
+    .s-main .second{
+        width: 100%;
+    }
+    .s-main .second img:nth-child(1){
+        width: 100%;
+    }
+    /* third */
+    .t-main{
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        gap: 50px;
+        height: 50vh;
+    }
+    /* four */
+    .fo-main{
+        height: auto;
+        flex-direction: column;
+    }
+    .fo-main .fo-first{
+        margin-top: 60px;
+        height: 50vh;
+        width: 100%;
+    }
+    .fo-main .second{
+        margin-top: -90px;
+        height: 70vh;
+        width: 100%;
+    }
+    .fo-main .f2-text{
+        margin-bottom: 5px!important;
+    }
+    /* five */
+    .fi-main{
+        height: auto;
+        flex-direction: column;
+    }
+    .fi-main .first{
+        height: 80vh;
+        width: 100%;
+    }
+    .fi-main .second{
+        height: 100vh;
+        width: 100%;
+    }
+    .fi-main .po{
+        height: 6%;
+        width: 20%;
+    }
+    /* six */
+    .si-main{
+        height: auto;
+        flex-direction: column;
+    }
+    .si-main .first{
+        height: auto;
+        width: 100%;
+    }
+    .si-main .f-contant{
+        width: 100%!important;
+    }
+    .si-main .fi{
+        width: 100%!important;
+    }
+    .si-main .second{
+        height: auto;
+        width: 100%;
+        padding: 0;
+    }
+    /* seven */
+    .se-main{
+        height: 100vh;
+        width: 100%;
+    }
+    .se-main .contant{
+        width: 100%;
+        text-align: center;
+    }
+    /* eight */
+    .e-main{
+        height: auto;
+        flex-direction: column;
+    }
+    .e-main .fi ,.e-main .se{
+        height: 50vh;
+        width: 100%;
+    }
+    /* nine */
+    .n-main{
+        height: 50vh;
+        text-align: center;
+    }
+    .n-main .contant{
+        width: 90%;
+    }
+}
